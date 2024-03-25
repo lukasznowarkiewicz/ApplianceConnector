@@ -56,7 +56,7 @@ Back in 2019, when we were working on this device, already some alternatives exi
 
 First prototype was rough. Designed in `Autodesk Eagle` (shortly after buying it from CadSoft). It only purpose was to get rid off breadboards, which often cause more problems than circuit itself. This devkit was an extension to `Lolin32 Lite` prototyping board. This board I would call as "it ain't much, but it honest work" and most important allowed us quick start working on the software.
 
-![Applicance connector render](imagesAndVideos/dev_kit.jpeg)
+![DevKit photo](imagesAndVideos/dev_kit.jpeg)
 
 
 It has necessary components for testing initially agreed functionalities:
@@ -66,13 +66,19 @@ It has necessary components for testing initially agreed functionalities:
 - connector for `TTTP223` based touch button module
 - `WS2812B` Leds for showing status of the device
   
-![Applicance connector render](imagesAndVideos/devKitSchematic.png)
+![DevKit schematic](imagesAndVideos/devKitSchematic.png)
 
+## Functional requirements and UI design
 
+At this point we more or less know how device should function, which features implement. Form of the device was not clear yet, but anyway it didn't stop us from working on software. Basic user interface was designed in `Affinity Designer`. Simple mockup of the software, not functional, but give us good base for creating user interface in web technologies.
 
+![Applicance connector render](UIDesign/RS232.jpg)
 
 ## Software development
 
+As the web server is running on the ESP32 itself - the webpage had to as simple and lightweight as possible. Only 4MB of storage were avaiable, so every kB was counting. Most of the images were .svg and whenever possible - were generated in css. 
+
+ESP32 is running `ESP-IDF FreeRTOS`. Writing so advance application in plain C - especially functions like wi-fi connection, filesystem management, webserver, etc. would make the app much more complex. 
 
 
 ## Enclosure
