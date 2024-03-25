@@ -54,6 +54,19 @@ Back in 2019, when we were working on this device, already some alternatives exi
 
 ## First prototype
 
+First prototype was rough. Designed in `Autodesk Eagle` (shortly after buying it from CadSoft). It only purpose was to get rid off breadboards, which often cause more problems than circuit itself. This devkit was an extension to `Lolin32 Lite` prototyping board. This board I would call as "it ain't much, but it honest work" and most important allowed us quick start working on the software.
+
+![Applicance connector render](imagesAndVideos/dev_kit.jpeg)
+
+
+It has necessary components for testing initially agreed functionalities:
+- IR leds for controlling devices
+- IR receiver `PNA460XM`
+- two experimental touch buttons (ESP32 has itself option for capacitive buttons support, but in the end we were unable to figure out how to make it work)
+- connector for `TTTP223` based touch button module
+- `WS2812B` Leds for showing status of the device
+  
+![Applicance connector render](imagesAndVideos/devKitSchematic.png)
 
 
 
