@@ -147,6 +147,35 @@ https://github.com/lukasznowarkiewicz/ApplianceConnector/assets/82212257/7d67487
 
 ## Enclosure
 
+After we made first functioning prorotype - it was time to pack this device into sleek housing. 
+
+![Applicance connector casing brainstorming 1](imagesAndVideos/casing/casing_electrical_box_module.png)
+
+
+![Applicance connector casing brainstorming 2](imagesAndVideos/casing/casing_usb_stick_like.png)
+
+
+![Applicance connector casing brainstorming 3](imagesAndVideos/casing/casing_simple.png)
+
+
+![Applicance connector casing brainstorming 4](imagesAndVideos/casing/casing_like_droplet.png)
+
+
+![Applicance connector casing brainstorming 4](imagesAndVideos/casing/casing_like_droplet_2.jpg)
+
+
+![Applicance connector casing brainstorming 5](imagesAndVideos/casing/casing_like_fibaro_flood_sensor.png)
+
+
+![Applicance connector casing rev 5](imagesAndVideos/casing/casing_rev5_1.png)
+
+![Applicance connector casing rev 5](imagesAndVideos/casing/casing_rev5_2.png)
+
+![Applicance connector casing rev 5](imagesAndVideos/casing/casing_rev5_3.png)
+
+![Applicance connector casing rev 5](imagesAndVideos/casing/casing_rev5_4.png)
+
+![Applicance connector casing rev 5](imagesAndVideos/casing/casing_rev5_5.png)
 
 
 ## Hardware
