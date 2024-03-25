@@ -7,27 +7,51 @@ The history behing this device came from my experience - I used to install smart
 ## Similar devices
 
 Back in 2019, when we were working on this device, already some alternatives existed. There were deivces, which adresses only part of the problem. To list a few:
-- `Global Cache iTach` 
 
-- `BroadLink RM Pro+`
+### Global Cache iTach
 
-- `Remotec AC master ZXT-600`
+- **Pros**: Supports various connection options, compact, compatible with many systems.
+- **Cons**: Setup complexity, may not suit simple needs, separate devices for RS232 and IR, high price
 
-- `Blastbot IR blaster`
+### BroadLink RM Pro+
 
-- `Remotec ZXT-310US`
+- **Pros**: Affordable, supports IR and RF 433MHz, works with major voice assistants.
+- **Cons**: RF control issues reported, app usability, lack of REST API.
 
-- `Hank IR transceiver`
+### Remotec AC Master ZXT-600
 
-- `Xiaomi universal IR remote controller`
+- **Pros**: Specialized for AC control, supports major brands, energy-efficient.
+- **Cons**: Limited to AC, setup complexity with certain hubs, lack of REST API.
 
-- `Logitech Harmony`
+### Blastbot IR Blaster
 
-- 
+- **Pros**: Smartphone and voice control, supports schedules.
+- **Cons**: Cloud dependency, IR only, lack of REST API.
+
+### Remotec ZXT-310US
+
+- **Pros**: Z-Wave to IR for AV devices, supports learning IR codes.
+- **Cons**: Focus on AV, manual configuration for uncommon devices, lack of REST API.
+
+### Hank IR Transceiver
+
+- **Pros**: Z-Wave Plus, IR learning, compact.
+- **Cons**: AV control focus, setup technicality, lack of REST API.
+
+### Xiaomi Universal IR Remote Controller
+
+- **Pros**: Very affordable, wide device support, integrates with Mi Home.
+- **Cons**: Wi-Fi dependency, app/setup challenges for non-Chinese speakers, lack of REST API.
+
+### Logitech Harmony
+
+- **Pros**: Broad device compatibility, advanced automation, supports multiple connection types.
+- **Cons**: Higher cost, discontinued models may affect support, lack of REST API.
 
 
 
 ## First prototype
+
 
 
 
