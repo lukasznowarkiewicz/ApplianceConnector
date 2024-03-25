@@ -84,6 +84,9 @@ The ESP32 operates on `ESP-IDF FreeRTOS`. Developing such an advanced applicatio
 
 Given the storage limitations, the frontend was designed to be straightforward and lightweight. This is why we opted not to use any frameworks for creating the GUI. It was crafted using simple HTML, with CSS for styling and JavaScript for websockets to minimize overhead and ensure efficiency.
 
+https://github.com/lukasznowarkiewicz/ApplianceConnector/assets/82212257/3271daf3-c359-4126-b65f-c0a6bbfbe71e
+
+
 ### Backend
 
 The backend of this application on the ESP32, utilizing ESP-IDF FreeRTOS, comprises various components, each managed by specific files:
@@ -107,12 +110,36 @@ The backend of this application on the ESP32, utilizing ESP-IDF FreeRTOS, compri
 
 ### Testing infrared
 
+Testing receiving commands from IR:
+
+
+https://github.com/lukasznowarkiewicz/ApplianceConnector/assets/82212257/00d33be0-9f63-4c23-b90f-50ff3d0fc727
+
+
+Testing sending commands over IR:
+
+https://github.com/lukasznowarkiewicz/ApplianceConnector/assets/82212257/5f554944-b339-42f7-858e-584611f51841
+
+Saving received commands to text file (as a config):
+
+https://github.com/lukasznowarkiewicz/ApplianceConnector/assets/82212257/204f5668-1959-4dcd-b433-fa26de5b123a
+
+
 
 ### Testing UART
 
 
-### 
 
+https://github.com/lukasznowarkiewicz/ApplianceConnector/assets/82212257/dbb3c007-76f6-457e-a3c8-33a27682dad4
+
+
+
+### Testing relays
+
+
+
+
+https://github.com/lukasznowarkiewicz/ApplianceConnector/assets/82212257/7d674879-574c-41a6-804a-36f65532bcf2
 
 
 
