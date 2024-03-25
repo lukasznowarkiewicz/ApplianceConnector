@@ -74,11 +74,48 @@ At this point we more or less know how device should function, which features im
 
 ![Applicance connector render](UIDesign/RS232.jpg)
 
-## Software development
+## Software Development
 
-As the web server is running on the ESP32 itself - the webpage had to as simple and lightweight as possible. Only 4MB of storage were avaiable, so every kB was counting. Most of the images were .svg and whenever possible - were generated in css. 
+The web server runs directly on the ESP32, necessitating that the webpage be as simple and lightweight as possible. With only 4MB of storage available, every kilobyte counted. Most images used were .svg, and wherever feasible, they were generated using CSS to save space.
 
-ESP32 is running `ESP-IDF FreeRTOS`. Writing so advance application in plain C - especially functions like wi-fi connection, filesystem management, webserver, etc. would make the app much more complex. 
+The ESP32 operates on `ESP-IDF FreeRTOS`. Developing such an advanced application in plain C—especially incorporating functions like Wi-Fi connection, filesystem management, and web server functionalities—would significantly increase the app's complexity.
+
+### Frontend
+
+Given the storage limitations, the frontend was designed to be straightforward and lightweight. This is why we opted not to use any frameworks for creating the GUI. It was crafted using simple HTML, with CSS for styling and JavaScript for websockets to minimize overhead and ensure efficiency.
+
+### Backend
+
+The backend of this application on the ESP32, utilizing ESP-IDF FreeRTOS, comprises various components, each managed by specific files:
+
+- **Webserver**: `webserver.c` and `webserver.h` handle HTTP requests, serving the GUI files and processing API calls from the frontend. `webserver_types.h` likely defines the structures and enums used by the webserver.
+
+- **Wi-Fi Connection**: `netConf.c` and `netConf.h` are responsible for configuring the Wi-Fi connection, handling tasks such as connecting to the Wi-Fi network and managing network settings.
+
+- **Infrared Control**:
+  - Sending IR commands: `irsend.c` and `irsend.h` manage the sending of IR commands to devices.
+  - Receiving IR commands: `irrecv.c` and `irrecv.h` handle the reception of IR signals from remote controls.
+
+- **UART Communication**: `tcpserial.c` and `tcpserial.h` handle of UART communication.
+
+- **LED Control**: `led.c` and `led.h` are used for controlling LED indicators on the ESP32, such as showing the status of the device or Wi-Fi connection.
+
+- **Relay Control**: `relay.c` and `relay.h` manage the activation and deactivation of relays for controlling dry contacts.
+
+- **Button Input**: `button.c` and `button.h` handle input from physical buttons on the ESP32 device, allowing for user interaction without the web interface.
+
+
+### Testing infrared
+
+
+### Testing UART
+
+
+### 
+
+
+
+
 
 
 ## Enclosure
