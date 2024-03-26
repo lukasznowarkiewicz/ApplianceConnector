@@ -166,6 +166,9 @@ After we made first functioning prorotype - it was time to pack this device into
 
 ![Applicance connector casing brainstorming 5](imagesAndVideos/casing/casing_like_fibaro_flood_sensor.png)
 
+Casing was designed in Fusion360:
+![Fusion 360](imagesAndVideos/casing/fusion360.png)
+
 REV 5 is the last casing we stick to and designed custom board for it. It has touch button on the top, translucent casing allowing both IR and visible light from RGB LEDs to go through, place at the bottom for slide-in mounting brackets (allowing for mounting it on the ceiling, to ziptie to something, etc.)
 
 ![Applicance connector casing rev 5](imagesAndVideos/casing/casing_rev5_1.png)
@@ -180,7 +183,7 @@ REV 5 is the last casing we stick to and designed custom board for it. It has to
 
 ![3D printing case1](imagesAndVideos/casing/3d_printing.png)
 
-![3D printing case2](imagesAndVideos/casing/3d_printing2.png)
+![3D printing case2](imagesAndVideos/casing/3d_printing2.jpeg)
 
 ## Hardware
 
