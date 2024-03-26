@@ -147,7 +147,7 @@ https://github.com/lukasznowarkiewicz/ApplianceConnector/assets/82212257/7d67487
 
 ## Enclosure
 
-After we made first functioning prorotype - it was time to pack this device into sleek housing. 
+After we made first functioning prorotype - it was time to pack this device into sleek housing. Many ideas was both designed and 3d printed. 
 
 ![Applicance connector casing brainstorming 1](imagesAndVideos/casing/casing_electrical_box_module.png)
 
@@ -166,6 +166,7 @@ After we made first functioning prorotype - it was time to pack this device into
 
 ![Applicance connector casing brainstorming 5](imagesAndVideos/casing/casing_like_fibaro_flood_sensor.png)
 
+REV 5 is the last casing we stick to and designed custom board for it. It has touch button on the top, translucent casing allowing both IR and visible light from RGB LEDs to go through, place at the bottom for slide-in mounting brackets (allowing for mounting it on the ceiling, to ziptie to something, etc.)
 
 ![Applicance connector casing rev 5](imagesAndVideos/casing/casing_rev5_1.png)
 
@@ -177,8 +178,19 @@ After we made first functioning prorotype - it was time to pack this device into
 
 ![Applicance connector casing rev 5](imagesAndVideos/casing/casing_rev5_5.png)
 
+![3D printing case1](imagesAndVideos/casing/3d_printing.png)
+
+![3D printing case2](imagesAndVideos/casing/3d_printing2.png)
 
 ## Hardware
 
+Electronic part of the design consists mainly on two boards:
+- upper one with ESP32 module, IR LEDs and IR receiver
+- lower one with terminal blocks for screwing wires of the RS232 device, dry contact controlled deivces, supply power via terminal block, side or bottom micro-USB cable and headphone jacks for connecting remote IR transmitters. Hole in the middle allow guiding wires through and then wrap them around the deivce.
 
-## 
+In the folder `hardwareElectronics` `Eagle` project can be found. Unfortunately the most recent version has been lost and I've simply attached the last backup I could find.
+
+## Project abandon
+
+Due to start of the studies and lack of free time, this project died spontaneously. Now when I'm pushing those assets and writing this readme (about the time of finishing my masters degree) I look at it with a wink. Today with ease I've found a few of the market devices doing exactly that. Even cool project ESPHome does exactly that. But overall at the time it was great experiece.
+
